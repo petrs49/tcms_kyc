@@ -1,0 +1,32 @@
+{
+  "name": "tcms",
+  "version": "1.0.0",
+  "description": "\"Create a restfull api and deploy digital ocean\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index"
+  },
+  "author": "learning",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "git": "^0.1.5",
+    "html-pdf": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.3",
+    "slugify": "^1.5.0"
+  },
+  "engines": {
+    "node": "14.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
